@@ -1,9 +1,9 @@
+## Project
+
+The task is to build a "Canva clone" in as short of a time as possible.
+
 ## Tech
 
-- Nix flake dev shell
-- direnv loads the flake shell
-- Node 24 with pnpm
-- React + Vite foundation
 - Vite + React
 - TypeScript
 - Vitest
