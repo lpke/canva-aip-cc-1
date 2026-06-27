@@ -3,3 +3,7 @@
 @theme {
   /* design tokens here */
 }
+
+button {
+  cursor: pointer;
+}
