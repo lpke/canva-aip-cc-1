@@ -10,7 +10,7 @@ Feature set to be kept strictly minimal.
 - Canvas area
 - Elements that can be added: box, text
 - Elements are clickable, draggable, resizeable, can have color changed
-- No export or session/storage persistence for now
+- No canvas export or session/storage persistence for now
 
 ## Tech
 
@@ -27,7 +27,7 @@ Feature set to be kept strictly minimal.
 - Do NOT over-engineer or over-style. Aim for the most human-readable, easy to review code possible. The less lines the better.
 - Do NOT build past the scope of the user's request. Keep edits tight and constrained. Assume the user wants to build this step-by-step and will review after every step, so you need to keep in your lane.
 - Extract shared components and logic where it would result in cleaner or more readable code.
-- Prefer to not pack too much into one single file.
+- Do NOT put all app code inside one file.
 
 ## Design Rules
 
@@ -42,5 +42,5 @@ Feature set to be kept strictly minimal.
 - Buttons and inputs should use the same border radius.
 - Inputs use `border border-slate-300 text-base`; focus uses `focus:border-slate-700 focus:outline-none`.
 - Avoid animations, gradients, decorative effects, and extra variants, unless required.
-- Avoid overuse of cards, especially nested cards.
-- Where applicable, dont forget to use the correct cursor types for the job
+- Avoid overuse of cards and boxes, especially nested cards.
+- Where applicable, dont forget to use the correct cursor types for the job (pointer, drag, resize, etc)
